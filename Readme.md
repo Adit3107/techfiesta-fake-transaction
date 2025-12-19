@@ -1,4 +1,3 @@
-```markdown
 # Fake Transaction Detector – Spot the Anomaly
 
 A lightweight end‑to‑end fraud detection pipeline for card transactions. The project loads transaction logs, engineers behaviour and time‑based features, trains a CatBoost model, and exposes scripts to score new CSV/Excel files and generate fraud predictions, as commonly done in modern fraud‑detection systems.
@@ -216,7 +215,6 @@ scikit-learn==1.4.2
 catboost==1.2.5
 matplotlib==3.8.4
 seaborn==0.13.2
-```
 
-CatBoost is chosen because it handles categorical features natively, performs well on tabular data, and is widely used in financial fraud detection tasks.
 ```
+CatBoost is chosen because it handles categorical features natively, performs well on tabular data, and is widely used in financial fraud detection tasks.
